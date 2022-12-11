@@ -1,0 +1,11 @@
+.temporaryStyleHeaderNav {
+    height: 100%;
+    width: 40%;
+    background-color: chartreuse;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 26px;
+}

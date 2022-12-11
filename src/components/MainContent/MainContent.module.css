@@ -1,0 +1,5 @@
+.temporaryStyleMainContent {
+    grid-area: m;
+    height: 100vh;
+    background-color: burlywood;
+}

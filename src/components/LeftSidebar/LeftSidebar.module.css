@@ -1,0 +1,5 @@
+.temporaryStyleLeftsidebar {
+    grid-area: s;
+    height: 100vh;
+    background-color: blanchedalmond;
+}
