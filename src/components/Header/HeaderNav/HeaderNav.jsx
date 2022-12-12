@@ -1,13 +1,23 @@
 import style from "./HeaderNav.module.css";
-import { NavLink } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 
 const HeaderNav = () => {
   return (
-    <div className={style.temporaryStyleHeaderNav}>
-      <NavLink to="/src/Pages/HomePage">Home</NavLink>
-      <NavLink to="/src/Pages/CommunityPage">Community</NavLink>
-      <NavLink to="/src/Pages/PagesPage">Pages</NavLink>
-    </div>
+    <>
+      <ul className={style.temporaryStyleHeaderNav}>
+        <li>
+          <Link to="/">Home</Link>
+        </li>
+        <li>
+          <Link to="/Community">Community</Link>
+        </li>
+        <li>
+          <Link to="/Pages">Pages</Link>
+        </li>
+      </ul>
+
+      <Outlet />
+    </>
   );
 };
 
