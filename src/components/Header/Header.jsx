@@ -6,12 +6,12 @@ import HeaderLogIn from "./HeaderLogIn/HeaderLogIn";
 
 const Header = () => {
   return (
-    <div className={style.temporaryStyleHeader}>
+    <header className={style.temporaryStyleHeader}>
       <HeaderLogo />
       <HeaderNav />
       <HeaderSearch />
       <HeaderLogIn />
-    </div>
+    </header>
   );
 };
 

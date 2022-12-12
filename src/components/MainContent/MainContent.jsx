@@ -6,11 +6,13 @@ import Pages from "../../Pages/Pages/Pages";
 
 const MainContent = () => {
   return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="community" element={<Community />} />
-      <Route path="pages" element={<Pages />} />
-    </Routes>
+    <main>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="community" element={<Community />} />
+        <Route path="pages" element={<Pages />} />
+      </Routes>
+    </main>
   );
 };
 
