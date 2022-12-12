@@ -1,5 +1,5 @@
 import style from "./HeaderNav.module.css";
-import { Link, Outlet } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const HeaderNav = () => {
   return (
@@ -9,14 +9,12 @@ const HeaderNav = () => {
           <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="/Community">Community</Link>
+          <Link to="/community">Community</Link>
         </li>
         <li>
-          <Link to="/Pages">Pages</Link>
+          <Link to="/pages">Pages</Link>
         </li>
       </ul>
-
-      <Outlet />
     </>
   );
 };

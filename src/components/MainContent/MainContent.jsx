@@ -8,8 +8,8 @@ const MainContent = () => {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/Community" element={<Community />} />
-      <Route path="/Pages" element={<Pages />} />
+      <Route path="community" element={<Community />} />
+      <Route path="pages" element={<Pages />} />
     </Routes>
   );
 };
