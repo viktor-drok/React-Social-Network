@@ -1,10 +1,10 @@
 import style from "./Home.module.css";
-import CreateMyPost from "./MyPosts/AddMyPost";
+import AddMyPost from "../../components/MyPosts/AddMyPost";
 
 const Home = () => {
   return (
     <div className={style.temporaryStyleHome}>
-      <CreateMyPost />
+      <AddMyPost />
     </div>
   );
 };
